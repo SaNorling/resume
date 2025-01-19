@@ -1,2 +1,5 @@
-# resume
-This is a direct view of my professional resume
+
+# My Resume
+
+[Download My Resume](./Samuel_Norling_CV.pdf)
+[Download My LaTeX Code](./resume.tex)
