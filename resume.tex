@@ -1,0 +1,202 @@
+%-------------------------
+% Resume in Latex
+% Author : Sidratul Muntaha Ahmed
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+
+\begin{center}
+    \textbf{\Huge \scshape Samuel Norling} \\ \vspace{1pt}
+    \small 612-839-3342 $|$ \href{mailto:sanorling12321@gmail.com}{\underline{sanorling12321@gmail.com}} $|$ 
+    \href{https://linkedin.com/in/x}{\underline{linkedin.com/in/SamuelNorling}} $|$
+    \href{https://github.com/x}{\underline{github.com/SaNorling}}
+\end{center}
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Belmont University}{Nashville, TN}
+      {Bachelor of Science in Computer Science minor in music}{May 2024}
+          \resumeItemListStart
+            \resumeItem{Operating Systems}   
+            \resumeItem{Computer Organization}
+            \resumeItem{Human Computer Interaction (UI/UX course)}
+            \resumeItem{Programming Languages}
+            \resumeItem{Data Structures \& Algorithms}
+            \resumeItem{Programming 1 \& 2}
+        \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Intern - Software Development}{September 2024 - December 2024}
+      {Reaching a Generation}{South Africa}
+      \resumeItemListStart
+        \resumeItem{Contributed to the development of an Enterprise Resource Planning (ERP) system to automate high-frequency organizational tasks.}
+        \resumeItem{Frontend Development: Designed authentication pages (login, signup, password reset) and dynamic dashboards integrating tables, icons, and calendars. Developed additional functional pages for employee management and event scheduling.}
+        \resumeItem{Quickly learned and applied technologies including HTML, CSS, Bootstrap, Tailwind CSS, and JavaScript, delivering functional pages within tight deadlines.}
+        \resumeItem{Showcased strong UI/UX design principles, mastering advanced CSS techniques like FLEXbox and Grid layouts}
+      \resumeItemListEnd
+      
+    \resumeSubheading
+      {Electronics Advisor}{2022 - 2024}
+      {Best Buy,}{Nashville, TN}
+      \resumeItemListStart
+        \resumeItem{Provide expert advice on electronics, ensuring customers make informed purchasing decisions.}
+        \resumeItem{Train new hires on product knowledge and customer service best practices.}
+      \resumeItemListEnd
+      
+     
+    \resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------
+\section{Projects}
+
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{ERP System Development (Internship)} $|$ \emph{Technologies used}}{}
+          \resumeItemListStart
+            \resumeItem{Delivered user-friendly interfaces and backend components, automating organizational processes and increasing efficiency.}
+          \resumeItemListEnd
+
+      \resumeProjectHeading
+          {\textbf{Dynamic Dashboards} $|$ \emph{Technologies used}}{}
+          \resumeItemListStart
+            \resumeItem{Designed visually appealing, interactive dashboards using JavaScript, Bootstrap, and Django.}
+          \resumeItemListEnd
+          
+      \resumeProjectHeading
+          {\textbf{Calculators and Weather Converters} $|$ \emph{Technologies used}}{}
+          \resumeItemListStart
+            \resumeItem{Built functional applications in Python, C++, Java, and Swift, enhancing programming and debugging expertise.}
+          \resumeItemListEnd  
+
+      \resumeProjectHeading
+          {\textbf{Small Games Development} $|$ \emph{Technologies used}}{}
+          \resumeItemListStart
+            \resumeItem{Created engaging mini-games across multiple programming languages, blending creativity with technical proficiency.}
+          \resumeItemListEnd         
+
+    \resumeSubHeadingListEnd
+
+
+%
+%-----------TECHNICAL SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: Python, C++, C\#, Java, JavaScript, SQL, Swift, HTML, CSS, PowerShell} \\
+     \textbf{Frameworks}{: Django, Bootstrap, Tailwind CSS, FLEXbox, CSS Grid, Git} \\
+     \textbf{Soft Skills}{: Effective communication, rapid learning agility, problem-solving, strong work ethic}
+    }}
+ \end{itemize}
+
+
+%-------------------------------------------
+\end{document}
